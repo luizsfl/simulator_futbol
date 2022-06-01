@@ -1,7 +1,12 @@
 package pedroluiz.projeto.simulator_futbol.domain;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Place {
+    @SerializedName("nome")
     private String name;
+    @SerializedName("imagem")
+    private String image;
 
     public String getName() {
         return name;
@@ -19,6 +24,5 @@ public class Place {
         this.image = image;
     }
 
-    private String image;
 
 }

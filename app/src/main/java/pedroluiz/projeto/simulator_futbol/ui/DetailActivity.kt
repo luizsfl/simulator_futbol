@@ -1,4 +1,4 @@
-package pedroluiz.projeto.simulator_futbol
+package pedroluiz.projeto.simulator_futbol.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -4,6 +4,7 @@
     <string name="txt_time_Mandante">Imagem do time mandante</string>
     <string name="txt_timeVisitante">Imagem time visitante</string>
     <string name="txt_version">X</string>
+    <string name="error_api">"Erro inesperado"</string>
 
     <style name="TextAppearance.App.CollapsingToolbar.Expanded" parent="TextAppearance.MaterialComponents.Headline5">
         <item name="android:textColor">?attr/colorOnPrimary</item>
