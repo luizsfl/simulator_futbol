@@ -18,6 +18,10 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
 
     private List<Match> matches;
 
+    public List<Match> getMatches() {
+        return matches;
+    }
+
     public MatchesAdapter(List<Match> matches) {
         this.matches = matches;
     }
@@ -40,6 +44,17 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
         //bandeiras
         Glide.with(context).load(match.getHometeam().getImage()).circleCrop().into(holder.binding.ivHomeTeam);
         Glide.with(context).load(match.getAwayTeam().getImage()).circleCrop().into(holder.binding.ivAwayTeam);
+
+        //score
+        if(match.getHometeam().getScore()!= null) {
+            holder.binding.tvHomeTeamScore.setText(match.getHometeam().getScore().toString());
+        }
+
+        if(match.getAwayTeam().getScore()!= null) {
+
+            holder.binding.tvAwayTeamScore.setText(match.getAwayTeam().getScore().toString());
+        }
+
 
 
     }
