@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "989363220494",
+    "project_id": "simulator-dio-spotheca",
+    "storage_bucket": "simulator-dio-spotheca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989363220494:android:a3bd4ef13fda8cde630c5f",
+        "android_client_info": {
+          "package_name": "pedroluiz.projeto.simulator_futbol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989363220494-ab77kmglat250k7f8udgeh7pj3b5ndmh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pedroluiz.projeto.simulator_futbol",
+            "certificate_hash": "f71dd94e5c523c06975e8822d88153984ce4b99b"
+          }
+        },
+        {
+          "client_id": "989363220494-5fbbjn5m86hvp2l19id5i5d6q16slijf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW_qQJCWoXtNVoHpQUpD33cmLdtgVBXuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989363220494-5fbbjn5m86hvp2l19id5i5d6q16slijf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

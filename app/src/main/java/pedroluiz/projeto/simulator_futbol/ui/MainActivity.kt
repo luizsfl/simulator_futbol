@@ -19,6 +19,7 @@ import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import java.util.*
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
@@ -71,6 +72,9 @@ class MainActivity : AppCompatActivity() {
 
         binding.rcvMatchs.setHasFixedSize(true)
         binding.rcvMatchs.layoutManager = LinearLayoutManager(this)
+        matchesAdapter = MatchesAdapter(Collections.emptyList())
+        binding.rcvMatchs.adapter = matchesAdapter
+
         findMatchesFromApi()
 
     }

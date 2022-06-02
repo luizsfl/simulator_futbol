@@ -36,7 +36,7 @@ class DetailActivity : AppCompatActivity() {
             binding.tvAwayTeamName.text = it.awayTeam.name
 
             val scoreHome = if(it.hometeam.score!=null) it.hometeam.score.toString() else ""
-            val scoreAway = if(it.awayTeam.score!=null) it.hometeam.score.toString() else ""
+            val scoreAway = if(it.awayTeam.score!=null) it.awayTeam.score.toString() else ""
 
             binding.tvHomeTeamScore.text = scoreHome
             binding.tvAwayTeamScore.text = scoreAway
